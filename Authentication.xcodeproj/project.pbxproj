@@ -7,22 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E346F0427629D6C00025270 /* GradientIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E346F0327629D6C00025270 /* GradientIcon.swift */; };
+		1E7F01C327386281007EEB82 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7F01C227386281007EEB82 /* SettingsView.swift */; };
+		1EA644672736E4EF004AEA68 /* Authentication.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1EA644652736E4EF004AEA68 /* Authentication.xcdatamodeld */; };
 		1EE880CE273470E8003BCCFF /* AuthenticationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE880CD273470E8003BCCFF /* AuthenticationApp.swift */; };
-		1EE880D0273470E8003BCCFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE880CF273470E8003BCCFF /* ContentView.swift */; };
 		1EE880D2273470EB003BCCFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EE880D1273470EB003BCCFF /* Assets.xcassets */; };
 		1EE880D5273470EB003BCCFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EE880D4273470EB003BCCFF /* Preview Assets.xcassets */; };
 		1EE880D7273470EB003BCCFF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE880D6273470EB003BCCFF /* Persistence.swift */; };
-		1EE880DA273470EB003BCCFF /* Authentication.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1EE880D8273470EB003BCCFF /* Authentication.xcdatamodeld */; };
+		1EE880E327347130003BCCFF /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE880E127347130003BCCFF /* VisualEffectBlur.swift */; };
+		1EE880E427347130003BCCFF /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE880E227347130003BCCFF /* ImagePicker.swift */; };
+		1EE880E82734713C003BCCFF /* SignInWithAppleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE880E52734713C003BCCFF /* SignInWithAppleObject.swift */; };
+		1EE880E92734713C003BCCFF /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE880E62734713C003BCCFF /* SignUpView.swift */; };
+		1EE880EA2734713C003BCCFF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE880E72734713C003BCCFF /* ProfileView.swift */; };
+		1EE880F327347145003BCCFF /* SignInWithAppleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE880EC27347145003BCCFF /* SignInWithAppleButton.swift */; };
+		1EE880F427347145003BCCFF /* GradientText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE880ED27347145003BCCFF /* GradientText.swift */; };
+		1EE880F527347145003BCCFF /* GradientTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE880EE27347145003BCCFF /* GradientTextField.swift */; };
+		1EE880F627347146003BCCFF /* TextFieldIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE880EF27347145003BCCFF /* TextFieldIcon.swift */; };
+		1EE880F727347146003BCCFF /* GradientProfilePictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE880F027347145003BCCFF /* GradientProfilePictureView.swift */; };
+		1EE880F827347146003BCCFF /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE880F127347145003BCCFF /* GradientButton.swift */; };
+		1EE8810227347898003BCCFF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1EE8810127347898003BCCFF /* FirebaseAuth */; };
+		1EE8810627348A32003BCCFF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1EE8810527348A32003BCCFF /* GoogleService-Info.plist */; };
+		1EE8811A2735D56A003BCCFF /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE8811727353746003BCCFF /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E346F0327629D6C00025270 /* GradientIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientIcon.swift; sourceTree = "<group>"; };
+		1E7F01C227386281007EEB82 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1EA644662736E4EF004AEA68 /* Authentication.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Authentication.xcdatamodel; sourceTree = "<group>"; };
 		1EE880CA273470E8003BCCFF /* Authentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Authentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE880CD273470E8003BCCFF /* AuthenticationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationApp.swift; sourceTree = "<group>"; };
-		1EE880CF273470E8003BCCFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1EE880D1273470EB003BCCFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EE880D4273470EB003BCCFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1EE880D6273470EB003BCCFF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		1EE880D9273470EB003BCCFF /* Authentication.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Authentication.xcdatamodel; sourceTree = "<group>"; };
+		1EE880E127347130003BCCFF /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		1EE880E227347130003BCCFF /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		1EE880E52734713C003BCCFF /* SignInWithAppleObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInWithAppleObject.swift; sourceTree = "<group>"; };
+		1EE880E62734713C003BCCFF /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpView.swift; path = Helpers/SignUpView.swift; sourceTree = "<group>"; };
+		1EE880E72734713C003BCCFF /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileView.swift; path = Helpers/ProfileView.swift; sourceTree = "<group>"; };
+		1EE880EC27347145003BCCFF /* SignInWithAppleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButton.swift; sourceTree = "<group>"; };
+		1EE880ED27347145003BCCFF /* GradientText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientText.swift; sourceTree = "<group>"; };
+		1EE880EE27347145003BCCFF /* GradientTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientTextField.swift; sourceTree = "<group>"; };
+		1EE880EF27347145003BCCFF /* TextFieldIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldIcon.swift; sourceTree = "<group>"; };
+		1EE880F027347145003BCCFF /* GradientProfilePictureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientProfilePictureView.swift; sourceTree = "<group>"; };
+		1EE880F127347145003BCCFF /* GradientButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		1EE8810527348A32003BCCFF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1EE881152735373D003BCCFF /* Authentication.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Authentication.entitlements; sourceTree = "<group>"; };
+		1EE8811727353746003BCCFF /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		1EE8811927353784003BCCFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EE8810227347898003BCCFF /* FirebaseAuth in Frameworks */,
+				1EE8811A2735D56A003BCCFF /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +74,7 @@
 			children = (
 				1EE880CC273470E8003BCCFF /* Authentication */,
 				1EE880CB273470E8003BCCFF /* Products */,
+				1EE8811627353746003BCCFF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +89,18 @@
 		1EE880CC273470E8003BCCFF /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				1EE881152735373D003BCCFF /* Authentication.entitlements */,
+				1EE880E027347130003BCCFF /* Helpers */,
 				1EE880CD273470E8003BCCFF /* AuthenticationApp.swift */,
-				1EE880CF273470E8003BCCFF /* ContentView.swift */,
-				1EE880D1273470EB003BCCFF /* Assets.xcassets */,
+				1EE880E62734713C003BCCFF /* SignUpView.swift */,
+				1EE880E72734713C003BCCFF /* ProfileView.swift */,
+				1E7F01C227386281007EEB82 /* SettingsView.swift */,
 				1EE880D6273470EB003BCCFF /* Persistence.swift */,
-				1EE880D8273470EB003BCCFF /* Authentication.xcdatamodeld */,
+				1EE8811927353784003BCCFF /* Info.plist */,
+				1EA644652736E4EF004AEA68 /* Authentication.xcdatamodeld */,
+				1EE8810527348A32003BCCFF /* GoogleService-Info.plist */,
+				1EE880EB27347145003BCCFF /* Views */,
+				1EE880D1273470EB003BCCFF /* Assets.xcassets */,
 				1EE880D3273470EB003BCCFF /* Preview Content */,
 			);
 			path = Authentication;
@@ -71,6 +112,38 @@
 				1EE880D4273470EB003BCCFF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1EE880E027347130003BCCFF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1EE880E127347130003BCCFF /* VisualEffectBlur.swift */,
+				1EE880E227347130003BCCFF /* ImagePicker.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1EE880EB27347145003BCCFF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1E346F0327629D6C00025270 /* GradientIcon.swift */,
+				1EE880ED27347145003BCCFF /* GradientText.swift */,
+				1EE880EE27347145003BCCFF /* GradientTextField.swift */,
+				1EE880EC27347145003BCCFF /* SignInWithAppleButton.swift */,
+				1EE880E52734713C003BCCFF /* SignInWithAppleObject.swift */,
+				1EE880EF27347145003BCCFF /* TextFieldIcon.swift */,
+				1EE880F027347145003BCCFF /* GradientProfilePictureView.swift */,
+				1EE880F127347145003BCCFF /* GradientButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1EE8811627353746003BCCFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EE8811727353746003BCCFF /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,6 +162,9 @@
 			dependencies = (
 			);
 			name = Authentication;
+			packageProductDependencies = (
+				1EE8810127347898003BCCFF /* FirebaseAuth */,
+			);
 			productName = Authentication;
 			productReference = 1EE880CA273470E8003BCCFF /* Authentication.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +193,9 @@
 				Base,
 			);
 			mainGroup = 1EE880C1273470E8003BCCFF;
+			packageReferences = (
+				1EE8810027347898003BCCFF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 1EE880CB273470E8003BCCFF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,6 +212,7 @@
 			files = (
 				1EE880D5273470EB003BCCFF /* Preview Assets.xcassets in Resources */,
 				1EE880D2273470EB003BCCFF /* Assets.xcassets in Resources */,
+				1EE8810627348A32003BCCFF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,10 +223,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EE880F727347146003BCCFF /* GradientProfilePictureView.swift in Sources */,
+				1EE880F327347145003BCCFF /* SignInWithAppleButton.swift in Sources */,
+				1EE880F527347145003BCCFF /* GradientTextField.swift in Sources */,
+				1EE880E327347130003BCCFF /* VisualEffectBlur.swift in Sources */,
+				1E346F0427629D6C00025270 /* GradientIcon.swift in Sources */,
+				1EE880EA2734713C003BCCFF /* ProfileView.swift in Sources */,
 				1EE880D7273470EB003BCCFF /* Persistence.swift in Sources */,
-				1EE880D0273470E8003BCCFF /* ContentView.swift in Sources */,
+				1EE880F627347146003BCCFF /* TextFieldIcon.swift in Sources */,
+				1EE880E427347130003BCCFF /* ImagePicker.swift in Sources */,
+				1E7F01C327386281007EEB82 /* SettingsView.swift in Sources */,
+				1EE880E92734713C003BCCFF /* SignUpView.swift in Sources */,
+				1EE880F827347146003BCCFF /* GradientButton.swift in Sources */,
 				1EE880CE273470E8003BCCFF /* AuthenticationApp.swift in Sources */,
-				1EE880DA273470EB003BCCFF /* Authentication.xcdatamodeld in Sources */,
+				1EE880F427347145003BCCFF /* GradientText.swift in Sources */,
+				1EA644672736E4EF004AEA68 /* Authentication.xcdatamodeld in Sources */,
+				1EE880E82734713C003BCCFF /* SignInWithAppleObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,15 +366,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Authentication/Authentication.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Authentication/Preview Content\"";
 				DEVELOPMENT_TEAM = J434Z8A5ZN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Authentication/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -304,15 +399,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Authentication/Authentication.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Authentication/Preview Content\"";
 				DEVELOPMENT_TEAM = J434Z8A5ZN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Authentication/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -352,13 +450,32 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		1EE8810027347898003BCCFF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1EE8810127347898003BCCFF /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1EE8810027347898003BCCFF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+
 /* Begin XCVersionGroup section */
-		1EE880D8273470EB003BCCFF /* Authentication.xcdatamodeld */ = {
+		1EA644652736E4EF004AEA68 /* Authentication.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				1EE880D9273470EB003BCCFF /* Authentication.xcdatamodel */,
+				1EA644662736E4EF004AEA68 /* Authentication.xcdatamodel */,
 			);
-			currentVersion = 1EE880D9273470EB003BCCFF /* Authentication.xcdatamodel */;
+			currentVersion = 1EA644662736E4EF004AEA68 /* Authentication.xcdatamodel */;
 			path = Authentication.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
